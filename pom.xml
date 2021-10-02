@@ -5,12 +5,23 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.basic.server</groupId>
-    <artifactId>basic-web-server</artifactId>
+    <artifactId>basic-http-server</artifactId>
     <version>0.0.1</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        <junit.version>5.8.1</junit.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
 
 </project>
